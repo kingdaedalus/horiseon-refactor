@@ -1,75 +1,60 @@
-# Horiseon: SEO Optimization Refactoring
+# Horiseon: SEO Optimization Refactor
 
 ## Table of Contents
 
-* [Description](#description)
-* [Live-URL](#live-url)
-* [Screenshots](#screenshots)
-* [Technologies-Used](#technologies-used)
-* [Installation](#installation)
-* [Credits](#credits)
-* [Features](#features)
-* [Usage-Information](#usage-information)
-* [Suggested-Future-Development](#suggested-future-development)
-* [Contribution-Guidelines](#contribution-guidelines)
-* [Test-Instructions](#test-instructions)
-* [License](#license)
-* [Questions](#questions)
+- [Description](#description)
+- [Live URL](#live-url)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Installation](#installation)
+- [Credits](#credits)
+- [License](#license)
 
 ## Description
 
-This project is just a personal project of refactoring a previous homework exercise. By repeating the original courses after I completed them,
-I am hoping to hone my skills and keep in practice while I expand my knowledge and real-world experiences. 
+A refactoring exercise originally completed as part of a coding bootcamp. The goal was to take an existing marketing landing page and improve it by:
 
-## Live-URL
+- Fixing semantic HTML structure (`<nav>`, `<main>`, `<aside>`, `<section>`)
+- Ensuring all navigation anchor links correctly resolve to their target sections
+- Improving accessibility with descriptive `alt` attributes on all images
+- Consolidating repetitive CSS rules using grouping selectors
+- Adding mobile responsiveness via a media query breakpoint
+- Adding proper `<meta>` tags for viewport scaling and SEO description
 
-[Link to live URL](https://kingdaedalus.github.io/horiseon-refactor/#search-engine-optimization)
+This project is kept alive as a personal practice reference.
 
-## Screenshots
+## Live URL
 
-Please see the site above, I am not adding screenshots due to currently holding my newborn :)
+[View the live site](https://kingdaedalus.github.io/horiseon-refactor/#search-engine-optimization)
 
-## Technologies-Used
+## Technologies Used
 
-This is a basic HTML and CSS webpage, hosted on an external server. The source code was already given, the practice was in refactoring from the
-original, to optimize and streamline the code.
-
-
-
-## Installation
-
-No installation is required, just an internet connection and clicking on the link above.
-
-## Credits
-
-This was created by myself, with the source code given via a bootcamp.
+- HTML5 (semantic elements)
+- CSS3 (grouping selectors, media queries)
+- GitHub Pages (hosting)
 
 ## Features
 
-N/A
+- Responsive layout that adapts to mobile screens
+- Accessible image alt text on all images
+- Functional in-page navigation via anchor links
+- Semantic HTML5 elements throughout
 
-## Usage-Information
+## Installation
 
-N/A
+No installation required — just open the [live URL](https://kingdaedalus.github.io/horiseon-refactor/#search-engine-optimization) in any browser.
 
-## Suggested-Future-Development
+To run locally, clone the repo and open `index.html` directly:
 
-N/A
+```bash
+git clone https://github.com/KingDaedalus/horiseon-refactor.git
+open horiseon-refactor/index.html
+```
 
-## Contribution-Guidelines
+## Credits
 
-N/A
-
-## Test-Instructions
-
-N/A
+Created by [KingDaedalus](https://github.com/KingDaedalus). Original source code provided via a coding bootcamp as a refactoring exercise.
 
 ## License
 
-NOTICE: This application is covered under the MIT License
-
-## Questions
-
-Have additional questions? Click the links below to reach us through GitHub.
-
-KingDaedalus: [Link to Github](https://github.com/kingdaedalus)
+This project is licensed under the [MIT License](LICENSE).
